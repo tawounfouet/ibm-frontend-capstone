@@ -22,7 +22,7 @@ connectToMongo();
 app.use('/api/auth', require('./routes/auth'));
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! Server is running on port 8181');
 });
 
 
